@@ -1,0 +1,169 @@
+/* colour primary: #92edff
+text: #232323
+\background primary:#ede7e3
+\background secondary:#16697a
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #ede7e3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif, Arial, serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.2s;
+    color: #ede7e3;
+}
+
+a:hover {
+    color: #ede7e3;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+main {
+    background-color: #16697a;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #ede7e3;
+}
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+    color: #ede7e3;
+}
+
+.dropdown-menu {
+    background-color: #ede7e3;
+}
+.navbar-custom {
+    background-color: #16697a;
+}
+
+.navbar-brand {
+    font-family: 'Merriweather', serif, Arial, serif;
+}
+
+.masthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #92edff;
+    padding: 4rem 2rem;
+    background: #16697a url('../img/mastheadbackground.jpg') no-repeat center;
+    background-size: cover;
+    margin: auto;
+    text-shadow: 2px 2px 4px #48737c;
+}
+
+.masthead h4 {
+    margin: 2rem 0;
+    font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+}
+
+.buttonprimary {
+    display: inline-block;
+    text-align: center;
+    border: 0.3rem solid #ede7e3;
+    border-radius: 0.6rem;
+    background-color: #ede7e3;
+    padding: 0.1rem 1rem;
+    width: 16rem;
+    font-weight: 700;
+    color: #16697a;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.buttonprimary:hover,
+.buttonprimary:focus,
+.buttonprimary:active {
+    background-color: #ebd2c0;
+    border: 0.3rem solid #ebd2c0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+footer div {
+    background-color: #16697a;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 30rem) {
+    .wrapper {
+        max-width: 60rem;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .maincontent p {
+        margin: 0 1rem;
+    }
+
+    image-container {
+        max-width: 25%;
+    }
+}
